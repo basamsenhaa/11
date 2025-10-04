@@ -7,18 +7,18 @@
     "video-extract",
     "pyrogram"
   ],
-  "repository": "https://github.com/Dev-Thanos/TXT-LEECH-BOT",
-  "success_url": "https://t.me/CoderThanos",
+  "repository": "",
+  "success_url": "",
   "stack": "container",
   "env": {
     "API_ID": {
       "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑰𝑫",
-      "value": "22746239",
+      "value": "20100739",
       "required": true
     },
     "API_HASH": {
       "description": "𝑬𝒏𝒕𝒆𝒓 𝒀𝒐𝒖𝒓 𝑨𝒑𝒊 𝑯𝒂𝒔𝒉",
-      "value": "a98ec8cfd8572a3a7c936cf828fe6215",
+      "value": "3c15b7b5ded9f13b4fb269cfd796a639",
       "required": true
     },
     "BOT_TOKEN": {
@@ -28,25 +28,25 @@
     },
     "OWNER": {
       "description": "𝙀𝙣𝙩𝙚𝙧 𝙔𝙤𝙪𝙧 𝙏𝙚𝙡𝙚𝙜𝙧𝙖𝙢 𝙄𝘿",
-      "value": "7743201204",
+      "value": "7547625729",
       "required": true
     },
     "CREDIT": {
       "description": "𝙀𝙣𝙩𝙚𝙧 𝘾𝙧𝙚𝙙𝙞𝙩 𝙉𝙖𝙢𝙚 𝙞𝙣 𝙖𝙡𝙢𝙤𝙨𝙩 6-8 𝙡𝙚𝙩𝙩𝙚𝙧𝙨",
-      "value": "〱ＵＧ▕",
+      "value": "𝐒ɑη𝐣ɑʏ",
       "required": true
     }
   },
   "addons": [],
   "buildpacks": [
     {
-      "url": "https://github.com/amivin/aria2-heroku.git"
+      "url": ""
     },
     {
       "url": "heroku/python"
     },       
     {
-      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+      "url": ""
     }
   ],
   "formation": {
