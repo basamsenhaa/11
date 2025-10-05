@@ -840,14 +840,14 @@ async def txt_handler(bot: Client, m: Message):
             try:
                 cc = (
     f"<b>Index :</b> {str(count).zfill(3)}\n\n"
-    f"<b>🎞️  Tɪᴛʟᴇ :</b> {name1} \n\n"
+    f"<b>🎞️  Tɪᴛʟᴇ :</b> {name1} \n"
     f"<b>├── Extention : 𝐒нɑᎥ𝚝ɑη</b> \n\n"
     f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}</blockquote>"
     f"\n\n<b>🌟 Extracted Bʏ : {CR}</b>"
 )
                 cc1 = (
     f"<b>Index :</b> {str(count).zfill(3)}\n\n"
-    f"<b>📚 Tɪᴛʟᴇ :</b> {name1} \n\n"
+    f"<b>📚 Tɪᴛʟᴇ :</b> {name1} \n"
     f"<b>├── Extention : 𝐒нɑᎥ𝚝ɑη</b> \n\n"
     f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}</blockquote>"
     f"\n\n<b>🌟 Extracted Bʏ : {CR}</b>"
