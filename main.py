@@ -841,7 +841,7 @@ async def txt_handler(bot: Client, m: Message):
                 cc = (
     f"<b>——— ✦</b> {str(count).zfill(3)}✦ ———\n\n"
     f"<b>🎞️ Tɪᴛʟᴇ :</b> {name1} \n"
-    f"<b>├── Extention : 𝐒ɑη𝐣ɑʏ.mkv</b>\n"
+    f"<b>├── Extention : 𝐒нɑᎥ𝚝ɑη💖</b>\n"
     f"<b>├── Resolution : [854x480]</b>\n\n"
     f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}</blockquote>"
     f"\n\n<b>🌟 Extracted BY : {CR}</b>"
@@ -849,8 +849,7 @@ async def txt_handler(bot: Client, m: Message):
                 cc1 = (
     f"<b>——— ✦</b> {str(count).zfill(3)}✦ ———\n\n"
     f"<b>📚  Tɪᴛʟᴇ :</b> {name1} \n"
-    f"<b>├── Extention : 𝐒ɑη𝐣ɑʏ.mkv</b>\n"
-    f"<b>├── Resolution : [854x480]</b>\n\n"
+    f"<b>├── Extention : 𝐒нɑᎥ𝚝ɑη💖</b>\n\n"
     f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}</blockquote>"
     f"\n\n<b>🌟 Extracted BY : {CR}</b>"
 )
@@ -858,8 +857,7 @@ async def txt_handler(bot: Client, m: Message):
                 ccimg = (
     f"<b>——— ✦<b>: {str(count).zfill(3)}✦ ——— \n\n"
     f"<b>🖼️  Tɪᴛʟᴇ</b> : {name1} \n"
-    f"<b>├── Extention : 𝐒ɑη𝐣ɑʏ.mkv</b>\n"
-    f"<b>├── Resolution : [854x480]</b>\n\n"
+    f"<b>├── Extention : 𝐒нɑᎥ𝚝ɑη💖</b>\n\n"
     f"<blockquote>📚  𝗕ᴀᴛᴄʜ : {b_name}</blockquote>"
     f"\n\n<b>🌟 Extracted BY: {CR}</b>"
 )
