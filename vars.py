@@ -13,8 +13,8 @@ DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://ajmerasaini01:U1sGi
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
-OWNER_ID = int(os.environ.get("OWNER_ID", "7547625729"))
-ADMINS = [int(x) for x in os.environ.get("ADMINS", "7547625729").split()]  # Default to owner ID
+OWNER_ID = int(os.environ.get("OWNER_ID", "6834250190"))
+ADMINS = [int(x) for x in os.environ.get("ADMINS", "6834250190").split()]  # Default to owner ID
 
 # Channel Configuration
 PREMIUM_CHANNEL = ""
@@ -61,6 +61,7 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 }
 
 #start
+
 
 
 
