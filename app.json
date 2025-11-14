@@ -1,0 +1,39 @@
+{
+    "name": "𝐓𝐞𝐱𝐭 Uploader  ™",
+    "description": "Download videos from various websites using this telegram bot",
+    "logo": "https://envs.sh/srE.jpg",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/1505-prinsu/DRM-and-ZIP-Uploader",
+    "success_url": "" ,
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter your bot token",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+    }
