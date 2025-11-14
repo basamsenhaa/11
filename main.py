@@ -185,11 +185,11 @@ photozip = 'https://envs.sh/fH.jpg/IMG20250803719.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/MrFrontMan001")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/MrFrontMan001")        ],
+            InlineKeyboardButton(text="🛠️ Help", url="")        ],
     ]
 )
 
@@ -313,7 +313,7 @@ async def start(bot: Client, m: Message):
             if not is_authorized:
                 await m.reply_photo(
                     photo=photologo,
-                    caption="**Mʏ Nᴀᴍᴇ [DRM Wɪᴢᴀʀᴅ 🦋]()\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ [](https://t.me/Mrfrontman001) ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
+                    caption="**Mʏ Nᴀᴍᴇ [DRM BOT 🦋]()\n\nYᴏᴜ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ᴀᴄᴄᴇꜱꜱ ᴛᴏ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ\nCᴏɴᴛᴀᴄᴛ []() ғᴏʀ ᴀᴄᴄᴇꜱꜱ**",
                     reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton("", url="")
@@ -777,13 +777,13 @@ async def txt_handler(bot: Client, m: Message):
 
             elif "https://cpvod.testbook.com/" in url or "classplusapp.com/drm/" in url:
                 url = url.replace("https://cpvod.testbook.com/","https://media-cdn.classplusapp.com/drm/")
-                url = f"https://covercel.vercel.app/extract_keys?url={url}@bots_updatee&user_id=7793257011"
+                url = f"https://covercel.vercel.app/extract_keys?url={url}@bots_updatee&user_id=7547625729"
                 mpd, keys = helper.get_mps_and_keys(url)
                 url = mpd
                 keys_string = " ".join([f"--key {key}" for key in keys])
 
             elif "classplusapp" in url:
-                signed_api = f"https://covercel.vercel.app/extract_keys?url={url}@bots_updatee&user_id=7793257011"
+                signed_api = f"https://covercel.vercel.app/extract_keys?url={url}@bots_updatee&user_id=7547625729"
                 response = requests.get(signed_api, timeout=40)
                 url = response.text.strip()
                 url = response.json()['url']  
@@ -1356,7 +1356,7 @@ def notify_owner():
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage"
     data = {
         "chat_id": OWNER_ID,
-        "text": "Bᴏᴛ Iꜱ Lɪᴠᴇ Nᴏᴡ 🤖"
+        "text": "𝐁𝐨𝐭 𝐑𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝 𝐒𝐮𝐜𝐜𝐞𝐬𝐬𝐟𝐮𝐥𝐥𝐲 ✅"
     }
     requests.post(url, data=data)
 
