@@ -1,6 +1,6 @@
 import subprocess
 def download_with_headers(url):
-    cmd = [
+    command = [
         "yt-dlp",
         "--add-header", "Referer: https://appx-play.akamai.net.in/",
         "--add-header", "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64)",
