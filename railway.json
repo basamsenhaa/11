@@ -12,7 +12,7 @@
     "useLegacyStacker": false,
     "multiRegionConfig": {
       "asia-southeast1-eqsg3a": {
-        "numReplicas": 1
+        "numReplicas": 3
       }
     },
     "restartPolicyType": "ON_FAILURE",
