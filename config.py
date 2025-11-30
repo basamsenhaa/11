@@ -11,7 +11,7 @@ PASS_DB = int(os.environ.get("PASS_DB", "720"))
 #OWNER = int(os.environ.get("OWNER", "7547625729"))
 
 #LOG = ,
-
+PORT = int(os.environ.get("PORT", 8080))
 # UPDATE_GRP = , # bot sat group
 
 # auth_chats = []
