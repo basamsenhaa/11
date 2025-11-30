@@ -17,7 +17,7 @@ RUN apk add --no-cache \
     make \
     g++ \
     cmake
-
+PORT = int(os.environ.get("PORT", 8080))
 # Install Bento4
 RUN wget -q https://github.com/axiomatic-systems/Bento4/archive/v1.6.0-639.zip && \
     unzip v1.6.0-639.zip && \
