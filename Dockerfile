@@ -38,3 +38,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Set the command to run the application
 CMD ["sh", "-c", "gunicorn app:app & python3 main.py"]
+EXPOSE 80/tcp
