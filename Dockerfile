@@ -19,7 +19,7 @@ RUN apk add --no-cache \
    cmake
     
 # Install Bento4
-#RUN wget -q https://github.com/axiomatic-systems/Bento4/archive/v1.6.0-639.zip && \
+RUN wget -q https://github.com/axiomatic-systems/Bento4/archive/v1.6.0-639.zip && \
    unzip v1.6.0-639.zip && \
     cd Bento4-1.6.0-639 && \
     mkdir build && \
