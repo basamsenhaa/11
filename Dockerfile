@@ -8,27 +8,27 @@ WORKDIR /app
 COPY . .
 
 # Install necessary dependencies
-#RUN apk add --no-cache \
-#    gcc \
- #   libffi-dev \
-#    musl-dev \
-#    ffmpeg \
-#    aria2 \
-#    make \
-#    g++ \
-#    cmake
+RUN apk add --no-cache \
+   gcc \
+   libffi-dev \
+   musl-dev \
+   ffmpeg \
+   aria2 \
+   make \
+   g++ \
+   cmake
     
 # Install Bento4
 #RUN wget -q https://github.com/axiomatic-systems/Bento4/archive/v1.6.0-639.zip && \
-  #  unzip v1.6.0-639.zip && \
-  #  cd Bento4-1.6.0-639 && \
-  #  mkdir build && \
-  #  cd build && \
- #   cmake .. && \
-  #  make -j$(nproc) && \
- #   cp mp4decrypt /usr/local/bin/ &&\
-#    cd ../.. && \
- #   rm -rf Bento4-1.6.0-639 v1.6.0-639.zip
+   unzip v1.6.0-639.zip && \
+    cd Bento4-1.6.0-639 && \
+    mkdir build && \
+   cd build && \
+   cmake .. && \
+   make -j$(nproc) && \
+    cp mp4decrypt /usr/local/bin/ &&\
+   cd ../.. && \
+   rm -rf Bento4-1.6.0-639 v1.6.0-639.zip
 
 # Upgrade pip
 RUN python -m pip install --upgrade pip
