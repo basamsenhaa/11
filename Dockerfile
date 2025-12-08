@@ -9,14 +9,14 @@ COPY . .
 
 # Install necessary dependencies
 #RUN apk add --no-cache \
-    gcc \
-    libffi-dev \
-    musl-dev \
-    ffmpeg \
-    aria2 \
-    make \
-    g++ \
-    cmake
+#    gcc \
+ #   libffi-dev \
+#    musl-dev \
+#    ffmpeg \
+#    aria2 \
+#    make \
+#    g++ \
+#    cmake
     
 # Install Bento4
 RUN wget -q https://github.com/axiomatic-systems/Bento4/archive/v1.6.0-639.zip && \
